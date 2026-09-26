@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Café Les Trois M — Oujda</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Karla:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="header-inner">
+    <a href="#accueil" class="logo">Café Les Trois M</a>
+    <input type="checkbox" id="menu-toggle" class="menu-toggle">
+    <label for="menu-toggle" class="menu-icon" aria-label="Ouvrir le menu">
+      <span></span><span></span><span></span>
+    </label>
+    <nav class="nav">
+      <a href="#accueil">Accueil</a>
+      <a href="#menu">Notre Menu</a>
+      <a href="#apropos">À propos</a>
+      <a href="#horaires">Horaires</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero" id="accueil">
+  <div class="hero-content">
+    <h1>Bienvenue au Café Les Trois M</h1>
+    <p>Un café chaleureux, des saveurs simples et des moments à partager.</p>
+    <div class="hero-buttons">
+      <a href="#menu" class="btn btn-primary">Découvrir le menu</a>
+      <a href="#contact" class="btn btn-secondary">Nous contacter</a>
+    </div>
+  </div>
+  <div class="hero-image">
+    <img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=1200&q=80" alt="Intérieur chaleureux du Café Les Trois M avec tables en bois">
+  </div>
+</section>
+
+<section class="intro">
+  <div class="container">
+    <h2>Bienvenue chez nous</h2>
+    <p>Le Café Les Trois M est un endroit pensé pour prendre son temps. On y vient pour un café avant le travail, une pause sucrée entre deux cours, ou simplement pour retrouver des amis autour d'un petit-déjeuner. L'ambiance est simple et chaleureuse, avec du bois, de la lumière naturelle et une équipe qui prend soin de chaque tasse servie. Que vous cherchiez un endroit calme pour étudier ou un lieu convivial pour discuter, vous trouverez ici une place qui vous ressemble.</p>
+  </div>
+</section>
+
+<section class="menu" id="menu">
+  <div class="container">
+    <h2>Notre Menu</h2>
+
+    <div class="menu-category">
+      <h3>Cafés</h3>
+      <div class="menu-grid">
+        <div class="menu-item">
+          <img src="https://images.unsplash.com/photo-1510707577719-ae7c14805e3a?auto=format&fit=crop&w=400&q=80" alt="Espresso" class="menu-item-img">
+          <div class="menu-item-body">
+            <div class="menu-item-head">
+              <span class="menu-item-name">Espresso</span>
+              <span class="menu-item-price">12 DH</span>
+            </div>
+            <p class="menu-item-desc">Un café serré, intense et corsé.</p>
+          </div>
+        </div>
+        <div class="menu-item">
+          <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=400&q=80" alt="Café Noir" class="menu-item-img">
+          <div class="menu-item-body">
+            <div class="menu-item-head">
+              <span class="menu-item-name">Café Noir</span>
+              <span class="menu-item-price">12 DH</span>
+            </div>
+            <p class="menu-item-desc">Le classique, préparé à l'ancienne.</p>
+          </div>
+        </div>
+        <div class="menu-item">
+          <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=400&q=80" alt="Café Latte" class="menu-item-img">
+          <div class="menu-item-body">
+            <div class="menu-item-head">
+              <span class="menu-item-name">Café Latte</span>
+              <span class="menu-item-price">18 DH</span>
+            </div>
+            <p class="menu-item-desc">Espresso et lait chaud mousseux.</p>
+          </div>
+        </div>
+        <div class="menu-item">
+          <img src="https://images.unsplash.com/photo-1572442388796-11668a67e53d?auto=format&fit=crop&w=400&q=80" alt="Cappuccino" class="menu-item-img">
+          <div class="menu-item-body">
+            <div class="menu-item-head">
+              <span class="menu-item-name">Cappuccino</span>
+              <span class="menu-item-price">20 DH</span>
+            </div>
+            <p class="menu-item-desc">Équilibre parfait entre café et mousse de lait.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="menu-category">
+      <h3>Boissons</h3>
+      <div class="menu-grid">
+        <div class="menu-item">
+          <img src="https://images.unsplash.com/photo-1544787219-7f47ccb76574?auto=format&fit=crop&w=400&q=80" alt="Thé à la menthe" class="menu-item-img">
+          <div class="menu-item-body">
+            <div class="menu-item-head">
+              <span class="menu-item-name">Thé à la menthe</span>
+              <span class="menu-item-price">15 DH</span>
+            </div>
+            <p class="menu-item-desc">Thé vert frais infusé à la menthe.</p>
+          </div>
+        </div>
+        <div class="menu-item">
+          <img src="https://images.unsplash.com/photo-1613478223719-2ab802602423?auto=format&fit=crop&w=400&q=80" alt="Jus d'orange" class="menu-item-img">
+          <div class="menu-item-body">
+            <div class="menu-item-head">
+              <span class="menu-item-name">Jus d'orange</span>
+              <span class="menu-item-price">18 DH</span>
+            </div>
+            <p class="menu-item-desc">Pressé minute, sans sucre ajouté.</p>
+          </div>
+        </div>
+        <div class="menu-item">
+          <img src="https://images.unsplash.com/photo-1523677011781-c91d1bbe2f9e?auto=format&fit=crop&w=400&q=80" alt="Citronnade" class="menu-item-img">
+          <div class="menu-item-body">
+            <div class="menu-item-head">
+              <span class="menu-item-name">Citronnade</span>
+              <span class="menu-item-price">18 DH</span>
+            </div>
+            <p class="menu-item-desc">Fraîche et légèrement sucrée.</p>
+          </div>
+        </div>
+        <div class="menu-item">
+          <img src="https://images.unsplash.com/photo-1548839140-29a749e1cf4d?auto=format&fit=crop&w=400&q=80" alt="Eau minérale" class="menu-item-img">
+          <div class="menu-item-body">
+            <div class="menu-item-head">
+              <span class="menu-item-name">Eau minérale</span>
+              <span class="menu-item-price">10 DH</span>
+            </div>
+            <p class="menu-item-desc">Bouteille de 50cl.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="menu-category">
+      <h3>Desserts</h3>
+      <div class="menu-grid">
+        <div class="menu-item">
+          <img src="https://images.unsplash.com/photo-1533134242443-d4fd215305ad?auto=format&fit=crop&w=400&q=80" alt="Cheesecake" class="menu-item-img">
+          <div class="menu-item-body">
+            <div class="menu-item-head">
+              <span class="menu-item-name">Cheesecake</span>
+              <span class="menu-item-price">25 DH</span>
+            </div>
+            <p class="menu-item-desc">Onctueux, base biscuitée maison.</p>
+          </div>
+        </div>
+        <div class="menu-item">
+          <img src="https://images.unsplash.com/photo-1568571780765-9276ac8b75a2?auto=format&fit=crop&w=400&q=80" alt="Tarte aux pommes" class="menu-item-img">
+          <div class="menu-item-body">
+            <div class="menu-item-head">
+              <span class="menu-item-name">Tarte aux pommes</span>
+              <span class="menu-item-price">22 DH</span>
+            </div>
+            <p class="menu-item-desc">Pommes fondantes et pâte croustillante.</p>
+          </div>
+        </div>
+        <div class="menu-item">
+          <img src="https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=400&q=80" alt="Fondant au chocolat" class="menu-item-img">
+          <div class="menu-item-body">
+            <div class="menu-item-head">
+              <span class="menu-item-name">Fondant au chocolat</span>
+              <span class="menu-item-price">28 DH</span>
+            </div>
+            <p class="menu-item-desc">Cœur coulant, servi tiède.</p>
+          </div>
+        </div>
+        <div class="menu-item">
+          <img src="https://images.unsplash.com/photo-1519676867240-f03562e64548?auto=format&fit=crop&w=400&q=80" alt="Crêpe au chocolat" class="menu-item-img">
+          <div class="menu-item-body">
+            <div class="menu-item-head">
+              <span class="menu-item-name">Crêpe au chocolat</span>
+              <span class="menu-item-price">25 DH</span>
+            </div>
+            <p class="menu-item-desc">Pâte fine et chocolat fondu.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="menu-category">
+      <h3>Petit-déjeuner</h3>
+      <div class="menu-grid">
+        <div class="menu-item">
+          <img src="https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?auto=format&fit=crop&w=400&q=80" alt="Petit-déjeuner classique" class="menu-item-img">
+          <div class="menu-item-body">
+            <div class="menu-item-head">
+              <span class="menu-item-name">Petit-déjeuner classique</span>
+              <span class="menu-item-price">35 DH</span>
+            </div>
+            <p class="menu-item-desc">Pain, beurre, confiture, jus et boisson chaude.</p>
+          </div>
+        </div>
+        <div class="menu-item">
+          <img src="https://images.unsplash.com/photo-1600891964092-4316c288032e?auto=format&fit=crop&w=400&q=80" alt="Petit-déjeuner marocain" class="menu-item-img">
+          <div class="menu-item-body">
+            <div class="menu-item-head">
+              <span class="menu-item-name">Petit-déjeuner marocain</span>
+              <span class="menu-item-price">40 DH</span>
+            </div>
+            <p class="menu-item-desc">Msemen, beghrir, miel, huile d'olive et thé.</p>
+          </div>
+        </div>
+        <div class="menu-item">
+          <img src="https://images.unsplash.com/photo-1594221708779-94832f4320d1?auto=format&fit=crop&w=400&q=80" alt="Omelette" class="menu-item-img">
+          <div class="menu-item-body">
+            <div class="menu-item-head">
+              <span class="menu-item-name">Omelette</span>
+              <span class="menu-item-price">25 DH</span>
+            </div>
+            <p class="menu-item-desc">Nature ou garnie, servie avec pain frais.</p>
+          </div>
+        </div>
+        <div class="menu-item">
+          <img src="https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?auto=format&fit=crop&w=400&q=80" alt="Pancakes" class="menu-item-img">
+          <div class="menu-item-body">
+            <div class="menu-item-head">
+              <span class="menu-item-name">Pancakes</span>
+              <span class="menu-item-price">30 DH</span>
+            </div>
+            <p class="menu-item-desc">Trois pancakes, sirop et fruits de saison.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="featured">
+  <div class="container">
+    <h2>Les incontournables</h2>
+    <div class="featured-grid">
+      <div class="featured-card">
+        <img src="https://images.unsplash.com/photo-1572442388796-11668a67e53d?auto=format&fit=crop&w=600&q=80" alt="Cappuccino avec mousse de lait">
+        <div class="featured-text">
+          <h3>Cappuccino</h3>
+          <p>Notre grand classique, servi bien chaud avec une mousse soyeuse.</p>
+        </div>
+      </div>
+      <div class="featured-card">
+        <img src="https://images.unsplash.com/photo-1533134242443-d4fd215305ad?auto=format&fit=crop&w=600&q=80" alt="Part de cheesecake">
+        <div class="featured-text">
+          <h3>Cheesecake</h3>
+          <p>Un dessert crémeux préparé chaque matin dans notre cuisine.</p>
+        </div>
+      </div>
+      <div class="featured-card">
+        <img src="https://images.unsplash.com/photo-1600891964092-4316c288032e?auto=format&fit=crop&w=600&q=80" alt="Petit-déjeuner marocain traditionnel">
+        <div class="featured-text">
+          <h3>Petit-déjeuner marocain</h3>
+          <p>Msemen, beghrir et thé à la menthe pour bien commencer la journée.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="about" id="apropos">
+  <div class="container about-grid">
+    <div class="about-image">
+      <img src="https://images.unsplash.com/photo-1445116572660-236099ec97a0?auto=format&fit=crop&w=800&q=80" alt="Salle du Café Les Trois M">
+    </div>
+    <div class="about-text">
+      <h2>À propos de Café Les Trois M</h2>
+      <p>Le Café Les Trois M est né d'une idée simple : offrir un endroit où l'on se sent bien, sans chichis. Un lieu pour retrouver des amis, prendre un petit-déjeuner tranquille, boire un bon café ou tout simplement s'installer avec un livre ou un ordinateur pour travailler quelques heures. À Oujda, nous voulons être ce genre d'endroit qui devient vite une habitude, où le personnel connaît vos goûts et où chaque visite a un petit air de retour à la maison.</p>
+    </div>
+  </div>
+</section>
+
+<section class="features">
+  <div class="container">
+    <div class="features-grid">
+      <div class="feature">
+        <span class="feature-icon">☕</span>
+        <h3>Café de qualité</h3>
+        <p>Des boissons préparées avec soin.</p>
+      </div>
+      <div class="feature">
+        <span class="feature-icon">🥐</span>
+        <h3>Produits frais</h3>
+        <p>Des produits sélectionnés chaque jour.</p>
+      </div>
+      <div class="feature">
+        <span class="feature-icon">🏠</span>
+        <h3>Ambiance chaleureuse</h3>
+        <p>Un espace confortable pour se retrouver.</p>
+      </div>
+      <div class="feature">
+        <span class="feature-icon">🤝</span>
+        <h3>Service convivial</h3>
+        <p>Une équipe accueillante et attentive.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="hours" id="horaires">
+  <div class="container hours-grid">
+    <div class="hours-card">
+      <h2>Nos horaires</h2>
+      <div class="hours-row">
+        <span>Lundi — Vendredi</span>
+        <span>08:00 — 22:00</span>
+      </div>
+      <div class="hours-row">
+        <span>Samedi — Dimanche</span>
+        <span>09:00 — 23:00</span>
+      </div>
+    </div>
+    <div class="location-card">
+      <p class="location-label">Adresse</p>
+      <p class="location-value">Oujda, Maroc</p>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <div class="container contact-grid">
+    <div class="contact-info">
+      <h2>Contactez-nous</h2>
+      <div class="contact-line">
+        <span class="contact-icon">📍</span>
+        <div>
+          <p class="contact-label">Adresse</p>
+          <p>Oujda, Maroc</p>
+        </div>
+      </div>
+      <div class="contact-line">
+        <span class="contact-icon">📞</span>
+        <div>
+          <p class="contact-label">Téléphone</p>
+          <p>+212 6 XX XX XX XX</p>
+        </div>
+      </div>
+      <div class="contact-line">
+        <span class="contact-icon">✉️</span>
+        <div>
+          <p class="contact-label">Email</p>
+          <p>contact@cafelestroism.ma</p>
+        </div>
+      </div>
+
+      <div class="map-placeholder">
+        <p class="map-title">Café Les Trois M</p>
+        <p class="map-city">Oujda, Maroc</p>
+        <p class="map-link">Voir notre emplacement</p>
+      </div>
+    </div>
+
+    <form class="contact-form">
+      <label for="nom">Nom</label>
+      <input type="text" id="nom" name="nom" placeholder="Votre nom">
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="votre@email.com">
+
+      <label for="sujet">Sujet</label>
+      <input type="text" id="sujet" name="sujet" placeholder="Sujet de votre message">
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="5" placeholder="Votre message"></textarea>
+
+      <button type="submit" class="btn btn-primary">Envoyer</button>
+    </form>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container footer-grid">
+    <div>
+      <p class="footer-logo">Café Les Trois M</p>
+      <p class="footer-tagline">Un endroit où le café devient un moment à partager.</p>
+    </div>
+    <nav class="footer-links">
+      <a href="#accueil">Accueil</a>
+      <a href="#menu">Menu</a>
+      <a href="#apropos">À propos</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+  <p class="footer-copy">© 2026 Café Les Trois M — Tous droits réservés.</p>
+</footer>
+
+</body>
+</html>
